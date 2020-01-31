@@ -26,7 +26,7 @@ def multiplySerial(mA, mB):
     for row in range(0, rowsA):
         for col in range(0, colsB):
             for i in range(0, rowsB):
-                result[row][col] = mA[row][i]*mB[i][col]
+                result[row][col] += mA[row][i]*mB[i][col]
 
     return result
 

@@ -20,10 +20,10 @@ MatrixB subarray:
 
 Expected result matrix shape: (250, 250)
 Actual result matrix shape: (250, 250)
-Computation Time: 12.576 seconds
+Computation Time: 16.950 seconds
 Result matrix subarray:
-42 42
-42 42
+10500 10500
+10500 10500
 ```
 
 ## To Run
