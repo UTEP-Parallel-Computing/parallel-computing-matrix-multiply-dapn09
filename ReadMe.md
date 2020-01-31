@@ -1,3 +1,5 @@
+# Parallel Computing Matrix Multiply Assignment
+
 ## About
 
 This script will implement a proof of concept script that generates and multiplies two matrices in a serial fashion (not parallel).
@@ -14,10 +16,10 @@ MatrixB subarray:
 6 6
 6 6
 
-Expected result shape: (250, 250)
-Actual result shape: (250, 250)
+Expected result matrix shape: (250, 250)
+Actual result matrix shape: (250, 250)
 Computation Time: 12.576 seconds
-Result subarray:
+Result matrix subarray:
 42 42
 42 42
 ```
@@ -31,7 +33,8 @@ $ cd parallel-computing-matrix-multiply-dapn09
 $ python multiply.py
 ```
 
-## Parallel Computing Matrix Multiply Assignment
+
+##### Instructions
 
 This repository contains some basic Python utilities for
 matrix operations. This is also the repository where

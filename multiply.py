@@ -49,10 +49,10 @@ if __name__ == '__main__':
     matrixUtils.printSubarray(matrixB, size=3)
 
     expResultShape = (matrixA.shape[0], matrixB.shape[1])
-    print("\nExpected result shape: %s" % str(expResultShape))
-    print("Actual result shape: %s" % str(result.shape))
+    print("\nExpected result matrix shape: %s" % str(expResultShape))
+    print("Actual result matrix shape: %s" % str(result.shape))
     print("Computation Time: %.3f seconds" % runningTimeSerial)
-    print("Result subarray:")
+    print("Result matrix subarray:")
     matrixUtils.printSubarray(result, size=3)
     print("\n")
     
