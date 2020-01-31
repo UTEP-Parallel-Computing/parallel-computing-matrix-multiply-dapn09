@@ -26,8 +26,8 @@ def printSubarray(matrix, size=10):
     the matrix
     """
 
-    for row in range(1, 10):
-        for col in range(1, 10):
+    for row in range(1, size):
+        for col in range(1, size):
             print(f'{matrix[row][col]} ' , end='')
         print('')
 
