@@ -1,5 +1,7 @@
 # Parallel Computing Matrix Multiply Assignment
 
+Daniel Pacheco #80451020
+
 ## About
 
 This script will implement a proof of concept script that generates and multiplies two matrices in a serial fashion (not parallel).
