@@ -1,3 +1,9 @@
+## To Run
+
+To run the script, open a command prompt and type:
+
+`$ python multiply.py`
+
 ## Parallel Computing Matrix Multiply Assignment
 
 This repository contains some basic Python utilities for
