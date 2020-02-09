@@ -48,7 +48,7 @@ The program will end by running a series of performance tests using 1,2,4,6 & 8 
 ![runtime](runtimes.png)
 
 ##### Plot analysis & cpuInfoDump.sh
-It can be seen on the runtimes plot, that the running time of the algorithm is halved by doubling the number of threads from 1, to 2 and then 4. However, we can observe that for a thread number greater than 4 the running times do not significantly decrease, not only that, they even increase a little bit. This can be explained perhaps by looking at the output of `cpuInfoDump.sh`:
+It can be seen on the runtimes plot, that the running time of the algorithm is halved by doubling the number of threads from 1, to 2 and then halved again for 4 cores. However, we can observe that for a thread number greater than 4 the running times do not significantly decrease and even increase a little bit. Perhaps this can be explained by looking at the output of `cpuInfoDump.sh`:
 ```
 model name      : Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz
       4      36     216
