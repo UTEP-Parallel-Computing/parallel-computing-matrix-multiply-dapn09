@@ -45,7 +45,7 @@ $ python3 multiply.py parallel
 ```
 The program will end by running a series of performance tests using 1,2,4,6 & 8 threads. The results will be plotted and stored in a file named `runtimes.png` which will look like this:
 
-![runtime plot] (https://github.com/UTEP-Parallel-Computing/parallel-computing-matrix-multiply-dapn09/blob/master/runtimes.png)
+![runtime](runtimes.png)
 
 ##### Plot analysis & cpuInfoDump.sh
 It can be seen on the runtimes plot, that the running time of the algorithm is halved by doubling the number of threads from 1, to 2 and then 4. However, we can observe that for a thread number greater than 4 the running times do not significantly decrease, not only that, they even increase a little bit. This can be explained perhaps by looking at the output of `cpuInfoDump.sh`:
